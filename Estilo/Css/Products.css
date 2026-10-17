@@ -106,8 +106,8 @@ a {
 }
 
 .description h2 {
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 30px;
   font-weight: bold;
   margin-bottom: 5px;
   text-align: center;
@@ -136,49 +136,44 @@ a {
 
 .h2 h2 {
   background-color: #ffffff00;
-  font-size: 22px;
+  font-size: 20px;
   list-style: 28px;
   padding: 24px 16px 8px 16px;
 }
 
-.farms-list .farm {
+.farms-list .producer {
   display: flex;
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid #eee;
 }
 
-.farms-list .farm:last-child {
+.farms-list .producer:last-child {
   border-bottom: none;
 }
 
-.farms-list .farm img {
+.farms-list .producer img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.farms-list .farm h3 {
+.farms-list .producer h3 {
   font-size: 14px;
   font-weight: bold;
   margin: 0;
 }
 
-.farms-list .farm .arrow {
+.farms-list .producer .arrow {
   margin-left: auto;
   display: flex;
   align-items: center;
 }
 
-.farms-list .farm .arrow svg {
-  width: 15px;
-  height: 15px;
-  fill: #007bff;
-}
+
 
 /* Footer */
-
 footer {
   position: fixed;
   bottom: 0;

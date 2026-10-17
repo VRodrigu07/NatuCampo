@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  background-color: #f8f8fb;
+  width: 100%;
+  overflow-y: scroll;
+  padding-top: 48px;
+  padding-bottom: 100px;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #fff;
+  padding: 0px 16px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-width: 1200px; /* ajusta este valor según sea necesario */
+  margin: 0 auto;
+}
+
+.header .back-button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header .back-button i {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+.header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1; /* Ocupa el espacio restante */
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 26px;
+  font-weight: bold;
+  color: #2E7D32;
+  margin: 0;
+}
+
+.T {
+  font-size: 22px;
+  line-height: 28px;
+  padding: 24px 16px 8px;
+}
+
+.categories h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 16px 8px;
+}
+.category-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  gap: 16px;
+}
+.category-item i {
+  font-size: 24px;
+  margin-left: 16px;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.category-item span {
+  flex-grow: 1;
+  font-size: 18px;
+  color: #000000;
+}
+.category-item .arrow {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 59px;
+  background-color: rgba(255, 255, 255, 0.650); /* opacidad baja */
+  backdrop-filter: blur(10px); /* efecto de borrosidad */
+  z-index: 1000;
+  padding: 0px;
+  text-align: center;
+  clear: both;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.Footer i {
+  position: relative;
+  top: -4px;
+  margin-top: 4px;
+  display: block;
+  font-size: 30px;
+  color: #6e6f76; /* gris */
+}
+
+.Footer.active {
+  font-weight: 500;
+}
+
+.Footer.active a {
+  color: #388e3c; /* verde */
+}
+
+.Footer.active i {
+  color: #388e3c !important; /* verde */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+footer div a {
+  color: #6e6f76;
+  text-decoration: none;
+}
+
+footer div a:hover {
+  color: #ccc;
+}
+
+.Footer {
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  line-height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: #6e6f76;
+}
+
+/* Oculta la barra de desplazamiento horizontal */
+
+footer::-webkit-scrollbar {
+  display: none; /* oculta la barra de desplazamiento horizontal en navegadores basados en WebKit (Chrome, Safari, etc.) */
+}
+
+footer {
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* Agrega estilos para pantallas pequeñas (smartphones) */
+
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}

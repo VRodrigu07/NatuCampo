@@ -18,6 +18,7 @@ body {
   width: 100%;
   overflow-y: scroll;
   padding-bottom: 100px;
+  margin: 0;
 }
 
 header {
@@ -25,26 +26,28 @@ header {
   text-align: start;
 }
 
-.Espacio1 {
-  width: 48px;
-  height: 48px;
+.Logo img {
+  width: 75px;
+  height: 75px;
+  justify-content: center;
+  display: flex;
 }
 
 .titulo {
   background-color: #2E7D32;
   color: #ffffffdf;
-  padding: 0px 16px 0px 16px;
+  padding: 0px 8px;
   font-weight: bold;
   width: 100%;
-  height: 48px;
+  height: 100px;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
 h1 {
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 33px;
+  line-height: 33px;
   text-align: center;
 }
 
@@ -52,21 +55,6 @@ h1 {
   width: 262px;
   height: 26px;
   text-align: center;
-}
-
-#menu {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  padding: 0px;
-  border-bottom: 1px solid #ddd;
-}
-
-#menu-icon {
-  cursor: pointer;
-  font-size: 24px;
 }
 
 .Menú {
@@ -198,7 +186,7 @@ h2.Secciones {
 }
 
 .product h3 {
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 0px;
   padding: 0;
   width: 100%;
@@ -207,13 +195,17 @@ h2.Secciones {
 }
 
 .product .rating {
-  font-size: 12px;
-  color: #6e6f76;
+  font-size: 14px;
+  color: #78942d;
   margin-bottom: 0px;
   padding: 0px;
   width: 100%;
   font-weight: 400;
   line-height: 20px;
+}
+
+.producer .comments {
+  font-family: 16px;
 }
 
 /* Sección Nuevos */
@@ -306,6 +298,17 @@ h2.Secciones {
 
 /* Sección Otros Productos */
 .Otros {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 8px 16px 8px 16px;
+  gap: 12px;
+}
+
+/* Sección Preparados */
+.Preparados {
   width: 100%;
   overflow-x: auto;
   display: flex;
@@ -427,6 +430,10 @@ footer div a:hover {
   display: none;
 }
 
+.Preparados::-webkit-scrollbar{
+  display: none;
+}
+
 footer::-webkit-scrollbar {
   display: none; /* oculta la barra de desplazamiento horizontal en navegadores basados en WebKit (Chrome, Safari, etc.) */
 }
@@ -441,12 +448,6 @@ footer {
 
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  table,
-  p,
-  img {
-    padding-right: 1em;
-    width: 100%;
-  }
 }
 @media (min-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
