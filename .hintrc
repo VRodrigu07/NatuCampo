@@ -10,7 +10,10 @@
       }
     ],
     "meta-charset-utf-8": "off",
-    "meta-viewport": "off"
+    "meta-viewport": "off",
+    "manifest-file-extension": "off",
+    "apple-touch-icons": "off",
+    "no-inline-styles": "off"
   },
   "browserslist": [
     "defaults",

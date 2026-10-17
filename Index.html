@@ -51,19 +51,21 @@
   <body>
     <div class="titulo">
       <!-- Elemento que contiene el título del documento -->
-      <div class="Espacio1"></div>
+      <div class="Logo">
+        <img src="/Img/LOGO-NC.png" alt="NATUCAMPO">
+      </div>
       <!-- Elemento que contiene un espacio en blanco -->
       <div class="T">
         <!-- Elemento que contiene el título del documento -->
         <h1>NATUCAMPO</h1>
         <!-- Título del documento -->
       </div>
+      <a href="Menú.html">
       <div class="Menú">
-        <!-- Elemento que contiene el menú del documento -->
         <i class="fas fa-bars" id="menu-icon"></i>
-        <!-- Icono del menú -->
+        </div>
+      </a>
       </div>
-    </div>
     <header>
       <!-- Elemento que contiene la barra de búsqueda -->
       <div class="search-bar">
@@ -72,273 +74,135 @@
           <!-- Elemento que contiene el buscador -->
           <i class="fas fa-search" aria-hidden="true"></i>
           <!-- Icono de búsqueda -->
-          <form action="Buscador.html" method="get">
+          <form id="search-form">
             <!-- Formulario de búsqueda -->
-            <input type="search" placeholder="Buscar productos agrícolas..." />
+            <input type="search" id="search-input" placeholder="Buscar productos agrícolas...">
             <!-- Campo de entrada de búsqueda -->
           </form>
-          <i class="fas fa-microphone" aria-hidden="true"></i>
-          <!-- Icono de micrófono -->
         </div>
       </div>
     </header>
-    <h2 class="Secciones">
-      <!-- Título de sección que indica los productos destacados -->
-      Productos Destacados
-    </h2>
-    <section class="destacados">
-      <!-- Sección que contiene los productos destacados -->
-      <a href="/Productos/Papa Criolla.html">
-        <!-- Enlace a la página de detalles del producto Papa Criolla -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Papa-Criolla.jpeg" alt="Papa Criolla" />
-          <!-- Imagen del producto Papa Criolla -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Papa Criolla</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(25)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Queso Campesino.html">
-        <!-- Enlace a la página de detalles del producto Queso Campesino -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Queso-Campesino.jpeg" alt="Queso Campesino" />
-          <!-- Imagen del producto Queso Campesino -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Queso Campesino</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(22)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Mango.html">
-        <!-- Enlace a la página de detalles del producto Mango -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Mango.jpeg" alt="Mango" />
-          <!-- Imagen del producto Mango -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Mango</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(45)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-    </section>
-    <h2 class="Secciones">
-      <!-- Título de sección que indica los nuevos productos -->
-      Nuevos Productos
-    </h2>
-    <section class="Nuevos">
-      <!-- Sección que contiene los productos nuevos -->
-
-      <a href="/Productos/Yuca.html">
-        <!-- Enlace a la página de detalles del producto Yuca -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Yuca.jpeg" alt="Yuca" />
-          <!-- Imagen del producto Yuca -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Yuca</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.7 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Leche Fresca.html">
-        <!-- Enlace a la página de detalles del producto Leche Fresca -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Leche-Fresca.jpeg" alt="Leche Fresca" />
-          <!-- Imagen del producto Leche Fresca -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Leche Fresca</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.6 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Yogurt.html">
-        <!-- Enlace a la página de detalles del producto Yogurt -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Yogurt.jpeg" alt="Yogurt" />
-          <!-- Imagen del producto Yogurt -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Yogurt</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-    </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Frutas">
       <!-- Título de sección que indica las frutas -->
       Frutas
     </h2>
     <section class="Frutas">
       <!-- Sección que contiene los productos de frutas -->
-
-      <a href="/Productos/Curuba.html">
-        <!-- Enlace a la página de detalles del producto Curuba -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Curuba.jpeg" alt="Curuba" />
-          <!-- Imagen del producto Curuba -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Curuba</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.3 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(10)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Fresa.html">
-        <!-- Enlace a la página de detalles del producto Fresa -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Fresa.jpeg" alt="Fresa" />
-          <!-- Imagen del producto Fresa -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Fresa</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.6 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Uchuva.html">
-        <!-- Enlace a la página de detalles del producto Uchuva -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Uchuva.jpeg" alt="Uchuva" />
-          <!-- Imagen del producto Uchuva -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Uchuva</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.5 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Mora.html">
-        <!-- Enlace a la página de detalles del producto Mora -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Mora.jpeg" alt="Mora" />
-          <!-- Imagen del producto Mora -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Mora</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.4 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Guayaba.html">
-        <!-- Enlace a la página de detalles del producto Guayaba -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Guayaba.jpeg" alt="Guayaba" />
-          <!-- Imagen del producto Guayaba -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Guayaba</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.6 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(20)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Lulo.html">
+      <a href="/Productos/Limón de Castilla.html">
         <!-- Enlace a la página de detalles del producto Lulo -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Lulo.jpeg" alt="Lulo" />
+          <img src="/Img/Limón-de-Castilla.jpeg" alt="Limón de Castilla" />
           <!-- Imagen del producto Lulo -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Lulo</h3>
+            <h3>Limón de Castilla</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
+              Productores 
               <!-- Calificación del producto -->
-              <span class="comments">(10)</span>
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Limón Mandarino.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Limón-Mandarino.jpeg" alt="Limón Mandarino" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Limón Mandarino</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(4)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Limón Taití.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Limón-Taití.jpeg" alt="Limón Taití" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Limón Taití</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(2)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Banano.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Banano.png" alt="Banano" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Banano</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(2)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Naranja.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Naranja.jpeg" alt="Naranja" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Naranja</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Pitahaya.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Pitahaya.jpeg" alt="Pitahaya" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Pitahaya</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(2)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -356,42 +220,22 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.9 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(7)</span>
+              <span class="comments">(0)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Vegetales">
       <!-- Título de sección que indica los vegetales -->
       Vegetales
     </h2>
     <section class="Vegetales">
       <!-- Sección que contiene los productos de vegetales -->
 
-      <a href="/Productos/Zanahoria.html">
-        <!-- Enlace a la página de detalles del producto Zanahoria -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Zanahoria.jpeg" alt="Zanahoria" />
-          <!-- Imagen del producto Zanahoria -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Zanahoria</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(25)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
       <a href="/Productos/Cebolla Larga.html">
         <!-- Enlace a la página de detalles del producto Cebolla Larga -->
         <div class="product">
@@ -404,96 +248,38 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(20)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
-      <a href="/Productos/Habichuela.html">
-        <!-- Enlace a la página de detalles del producto Habichuela -->
+      <a href="/Productos/Ahuyama.html">
+        <!-- Enlace a la página de detalles del producto Cebolla Larga -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Habichuela.jpeg" alt="Habichuela" />
-          <!-- Imagen del producto Habichuela -->
+          <img src="/Img/Ahuyama.png" alt="Ahuyama" />
+          <!-- Imagen del producto Cebolla Larga -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Habichuela</h3>
+            <h3>Ahuyama</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.3 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(10)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Papa Criolla.html">
-        <!-- Enlace a la página de detalles del producto Papa Criolla -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Papa-Criolla.jpeg" alt="Papa Criolla" />
-          <!-- Imagen del producto Papa Criolla -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Papa Criolla</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(25)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Acelga.html">
-        <!-- Enlace a la página de detalles del producto Acelga -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Acelga.jpeg" alt="Acelga" />
-          <!-- Imagen del producto Acelga -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Acelga</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.0 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(8)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Espinaca.html">
-        <!-- Enlace a la página de detalles del producto Espinaca -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Espinaca.jpeg" alt="Espinaca" />
-          <!-- Imagen del producto Espinaca -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Espinaca</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.1 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    
+  </section>
+    <h2 class="Secciones" id="Tubérculos">
       <!-- Título de sección que indica los tubérculos -->
       Tubérculos
     </h2>
@@ -512,27 +298,7 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Ñame.html">
-        <!-- Enlace a la página de detalles del producto Ñame -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Ñame.jpeg" alt="Ñame" />
-          <!-- Imagen del producto Ñame -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Ñame</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.5 ★
+              Productores
               <!-- Calificación del producto -->
               <span class="comments">(10)</span>
               <!-- Número de comentarios del producto -->
@@ -540,68 +306,28 @@
           </div>
         </div>
       </a>
-      <a href="/Productos/Arracacha.html">
-        <!-- Enlace a la página de detalles del producto Arracacha -->
+      <a href="/Productos/Malanga.html">
+        <!-- Enlace a la página de detalles del producto Carne de Cerdo -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Arracacha.jpeg" alt="Arracacha" />
-          <!-- Imagen del producto Arracacha -->
+          <img src="/Img/Malanga.jpeg" alt="Malanga" />
+          <!-- Imagen del producto Carne de Cerdo -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Arracacha</h3>
+            <h3>Malanga</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Papa Común.html">
-        <!-- Enlace a la página de detalles del producto Papa Común -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Papa-Común.jpeg" alt="Papa Común" />
-          <!-- Imagen del producto Papa Común -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Papa Común</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.8 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(30)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Batata.html">
-        <!-- Enlace a la página de detalles del producto Batata -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Batata.jpeg" alt="Batata" />
-          <!-- Imagen del producto Batata -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Batata</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.2 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(7)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Lácteos">
       <!-- Título de sección que indica los lácteos -->
       Lácteos
     </h2>
@@ -616,13 +342,13 @@
           <!-- Imagen del producto Queso Campesino -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Queso Campesino</h3>
+            <h3>Queso</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.8 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(22)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -636,13 +362,13 @@
           <!-- Imagen del producto Leche Fresca -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Leche Fresca</h3>
+            <h3>Leche</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
+              <span class="comments">(9)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -660,29 +386,9 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Mantequilla Artesanal.html">
-        <!-- Enlace a la página de detalles del producto Mantequilla Artesanal -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Mantequilla.jpeg" alt="Mantequilla Artesanal" />
-          <!-- Imagen del producto Mantequilla Artesanal -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Mantequilla Artesanal</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.5 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
+              <span class="comments">(10)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -700,16 +406,16 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.8 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
+              <span class="comments">(0)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Carnes">
       <!-- Título de sección que indica las carnes -->
       Carnes
     </h2>
@@ -728,19 +434,39 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(25)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
-      <a href="/Productos/Pollo.html">
+      <a href="/Productos/Pescado.html">
+        <!-- Enlace a la página de detalles del producto Carne de Res -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Pescado.jpeg" alt="Pescado" />
+          <!-- Imagen del producto Carne de Res -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Pescado</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Pollo Criollo.html">
         <!-- Enlace a la página de detalles del producto Pollo Criollo -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Pollo-Criollo.jpeg" alt="Pollo Criollo" />
+          <img src="/Img/Gallina.png" alt="Pollo Criollo" />
           <!-- Imagen del producto Pollo Criollo -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
@@ -748,15 +474,15 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
+              <span class="comments">(11)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
-      <a href="/Productos/Cerdo.html">
+      <a href="/Productos/Carne de Cerdo.html">
         <!-- Enlace a la página de detalles del producto Carne de Cerdo -->
         <div class="product">
           <!-- Contenedor del producto -->
@@ -768,16 +494,56 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.5 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
+              <span class="comments">(2)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Chorizo.html">
+        <!-- Enlace a la página de detalles del producto Carne de Cerdo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Chorizo.jpeg" alt="Chorizo" />
+          <!-- Imagen del producto Carne de Cerdo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Chorizo</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(2)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Longaniza.html">
+        <!-- Enlace a la página de detalles del producto Carne de Cerdo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Longaniza.jpeg" alt="Carne de Cerdo" />
+          <!-- Imagen del producto Carne de Cerdo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Longaniza</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(2)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Huevos">
       <!-- Título de sección que indica los huevos -->
       Huevos
     </h2>
@@ -792,40 +558,20 @@
           <!-- Imagen del producto Huevos de Gallina -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Huevos de Gallina</h3>
+            <h3>Huevos</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.9 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(20)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Huevos de Codorniz.html">
-        <!-- Enlace a la página de detalles del producto Huevos de Codorniz -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Huevos-de-Codorniz.jpeg" alt="Huevos de Codorniz" />
-          <!-- Imagen del producto Huevos de Codorniz -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Huevos de Codorniz</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.4 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(8)</span>
+              <span class="comments">(15)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="GranosL">
       <!-- Título de sección que indica los granos y legumbres -->
       Granos y Legumbres
     </h2>
@@ -844,9 +590,9 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.8 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(20)</span>
+              <span class="comments">(5)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -864,83 +610,23 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Arveja.html">
-        <!-- Enlace a la página de detalles del producto Arvejas -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Arvejas.jpeg" alt="Arvejas" />
-          <!-- Imagen del producto Arvejas -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Arvejas</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.5 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Garbanzo.html">
-        <!-- Enlace a la página de detalles del producto Garbanzo -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Garbanzo.jpeg" alt="Garbanzo" />
-          <!-- Imagen del producto Garbanzo -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Garbanzo</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.2 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(7)</span>
-              <!-- Número de comentarios del producto -->
-            </span>
-          </div>
-        </div>
-      </a>
-      <a href="/Productos/Lenteja.html">
-        <!-- Enlace a la página de detalles del producto Lenteja -->
-        <div class="product">
-          <!-- Contenedor del producto -->
-          <img src="Img/Lenteja.jpeg" alt="Lenteja" />
-          <!-- Imagen del producto Lenteja -->
-          <div class="text-container">
-            <!-- Contenedor del texto del producto -->
-            <h3>Lenteja</h3>
-            <!-- Título del producto -->
-            <span class="rating">
-              <!-- Contenedor de la calificación del producto -->
-              4.1 ★
-              <!-- Calificación del producto -->
-              <span class="comments">(10)</span>
+              <span class="comments">(0)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
     </section>
-    <h2 class="Secciones">
+    <h2 class="Secciones" id="Otros">
       <!-- Título de sección que indica otros productos -->
       Otros Productos
     </h2>
     <section class="Otros">
       <!-- Sección que contiene otros productos -->
 
-      <a href="/Productos/Miel.html">
+      <a href="/Productos/Miel Artesanal.html">
         <!-- Enlace a la página de detalles del producto Miel Artesanal -->
         <div class="product">
           <!-- Contenedor del producto -->
@@ -952,9 +638,9 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(12)</span>
+              <span class="comments">(3)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -972,9 +658,9 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.3 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(15)</span>
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -984,7 +670,7 @@
         <!-- Enlace a la página de detalles del producto Café -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Café.jpeg" alt="Café" />
+          <img src="/Img/Café-La-Montaña.png" alt="Café" />
           <!-- Imagen del producto Café -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
@@ -992,29 +678,216 @@
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.7 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(18)</span>
+              <span class="comments">(5)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
         </div>
       </a>
-      <a href="/Productos/Chocolate.html">
+      <a href="/Productos/Cacao.html">
         <!-- Enlace a la página de detalles del producto Chocolate -->
         <div class="product">
           <!-- Contenedor del producto -->
-          <img src="Img/Chocolate.jpeg" alt="Chocolate" />
+          <img src="/Img/Cacao.jpeg" alt="Cacap" />
           <!-- Imagen del producto Chocolate -->
           <div class="text-container">
             <!-- Contenedor del texto del producto -->
-            <h3>Chocolate</h3>
+            <h3>Cacao</h3>
             <!-- Título del producto -->
             <span class="rating">
               <!-- Contenedor de la calificación del producto -->
-              4.6 ★
+              Productores
               <!-- Calificación del producto -->
-              <span class="comments">(10)</span>
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+    </section>
+    <h2 class="Secciones" id="Preparados">
+      <!-- Título de sección que indica las frutas -->
+      Productos Preparados
+    </h2>
+    <section class="Preparados">
+      <!-- Sección que contiene los productos de frutas -->
+      <a href="/Productos/Arepa.html">
+        <!-- Enlace a la página de detalles del producto Lulo -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Arepa.png" alt="Arepa" />
+          <!-- Imagen del producto Lulo -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Arepa</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(3)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Arequipe.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Arequipe.jpeg" alt="Arequipe" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Arequipe</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Hallaca.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Hallaca.jpeg" alt="Hallaca" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Hallaca</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Galleta.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Galleta.png" alt="Galleta" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Galleta</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(3)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Envuelto.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Envuelto.jpeg" alt="Envuelto" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Envuelto</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Masato.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Masato.jpeg" alt="Masato" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Masato</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Pan.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Pan.jpeg" alt="Pan" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Pan</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Panela.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Panela.png" alt="Panela" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Panela</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(4)</span>
+              <!-- Número de comentarios del producto -->
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="/Productos/Torta.html">
+        <!-- Enlace a la página de detalles del producto Chamba -->
+        <div class="product">
+          <!-- Contenedor del producto -->
+          <img src="/Img/Torta.jpeg" alt="Torta" />
+          <!-- Imagen del producto Chamba -->
+          <div class="text-container">
+            <!-- Contenedor del texto del producto -->
+            <h3>Torta</h3>
+            <!-- Título del producto -->
+            <span class="rating">
+              <!-- Contenedor de la calificación del producto -->
+              Productores
+              <!-- Calificación del producto -->
+              <span class="comments">(1)</span>
               <!-- Número de comentarios del producto -->
             </span>
           </div>
@@ -1027,7 +900,7 @@
         <!-- Contenedor de enlaces del pie de página -->
         <div class="Footer active">
           <!-- Enlace activo al inicio -->
-          <a href="Inicio.html">
+          <a href="Index.html">
             <!-- Enlace a la página de inicio -->
             <i class="bx bxs-home"></i>
             <!-- Icono de inicio -->
@@ -1036,18 +909,9 @@
           </a>
         </div>
         <div class="Footer">
-          <!-- Enlace a la página de recomendados -->
-          <a href="Recomendados.html">
-            <i class="bx bx-star"></i>
-            <!-- Icono de estrella -->
-            Recomendados
-            <!-- Texto del enlace de recomendados -->
-          </a>
-        </div>
-        <div class="Footer">
           <!-- Enlace a la página de favoritos -->
-          <a href="Favoritos.html">
-            <i class="bx bx-heart"></i>
+          <a href="Vereda.html">
+            <i class='bx bx-map'></i>
             <!-- Icono de corazón -->
             Veredas
             <!-- Texto del enlace de favoritos -->
@@ -1055,7 +919,7 @@
         </div>
         <div class="Footer">
           <!-- Enlace a la página de contactos -->
-          <a href="Contactos.html">
+          <a href="Contacto.html">
             <i class="bx bx-group"></i>
             <!-- Icono de grupo -->
             Contactos
